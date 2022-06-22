@@ -21,9 +21,9 @@
 * [Stake](#stake-statistic)
 * [Total Supply](#total-supply-statistic)
 
-A ALV blockchain REST and web socket API service for [Alveycore Node](https://github.com/alveyproject/alveycore-node).
+A ALV blockchain REST and web socket API service for [Alveycore Node](https://github.com/alveycoin/alveycore-node).
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/alveyproject/alvey-explorer.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/alveycoin/alvey-explorer.
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
     ```  
 2. Install mongo https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/  
 
-3. Install alvey https://github.com/alveyproject/alvey - with bitcore and ZMQ ! 
+3. Install alvey https://github.com/alveycoin/alvey - with bitcore and ZMQ ! 
 
     ```bash
     # with ZMQ
@@ -46,13 +46,13 @@ This is a backend-only service. If you're looking for the web frontend applicati
 4. Install alveycore-node  
 
     ```bash
-    npm i https://github.com/alveyproject/alveycore-node.git#master
+    npm i https://github.com/alveycoin/alveycore-node.git#master
 
     $(npm bin)/alveycore-node create mynode
 
     cd mynode
 
-    $(npm bin)/alveycore-node install https://github.com/alveyproject/insight-api.git#master
+    $(npm bin)/alveycore-node install https://github.com/alveycoin/insight-api.git#master
     ```  
 5. Edit alveycore-node.json  
 
@@ -132,7 +132,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
 
 There add-on service available to extend the functionality of Alveycore:
 
-- [ALV Explorer](https://github.com/alveyproject/alvey-explorer)
+- [ALV Explorer](https://github.com/alveycoin/alvey-explorer)
 
 ## Prerequisites
 
