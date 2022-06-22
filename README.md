@@ -8,9 +8,9 @@
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [DGP info](#dgpinfo)
-* [QRC20 info](#arc20-info)
-* [QRC20 transfers](#arc20-transfers)
-* [QRC20 balances](#arc20-balances)
+* [ARC20 info](#arc20-info)
+* [ARC20 transfers](#arc20-transfers)
+* [ARC20 balances](#arc20-balances)
 
 ### Statistics
 * [Total 24h](#total-24h-statistic)
