@@ -1,0 +1,53 @@
+{
+  "name": "alvey-insight-api",
+  "description": "A ALV blockchain REST and web socket API service for Qtumcore Node.",
+  "version": "0.0.26",
+  "repository": "https://github.com/alveyproject/insight-api.git",
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/alveyproject/insight-api/issues"
+  },
+  "homepage": "https://github.com/alveyproject/insight-api",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "insight api",
+    "blockchain",
+    "alvey api",
+    "blockchain api",
+    "json",
+    "alveycore"
+  ],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec --recursive"
+  },
+  "main": "lib",
+  "alveycoreNode": "lib",
+  "dependencies": {
+    "async": "*",
+    "bignumber.js": "^4.0.2",
+    "bitcore-lib": "^0.13.7",
+    "bitcore-message": "^1.0.1",
+    "body-parser": "^1.13.3",
+    "compression": "^1.6.1",
+    "cors": "^2.8.5",
+    "lodash": "^2.4.1",
+    "lru-cache": "^4.0.1",
+    "moment": "^2.19.3",
+    "mongoose": "^4.11.8",
+    "morgan": "^1.7.0",
+    "alveycore-lib": "https://github.com/alveyproject/alveycore-lib.git#master",
+    "request": "^2.83.0",
+    "web3": "^0.18.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.2",
+    "should": "^8.3.1",
+    "sinon": "^1.10.3"
+  }
+}
