@@ -761,7 +761,7 @@ resp:
 }
 ```
 
-### QRC20 info
+### ARC20 info
 ```
   /insight-api/erc20/:contractAddress
   > DEPRECATED
@@ -771,7 +771,7 @@ resp:
   /insight-api/arc20/:contractAddress
 ```
 
-### QRC20 transfers
+### ARC20 transfers
 
 If you want to get receipt, then add "withReceipt=true" to the query
 
@@ -779,7 +779,7 @@ If you want to get receipt, then add "withReceipt=true" to the query
   /insight-api/erc20/:contractAddress/transfers
 ```
 
-### QRC20 balances
+### ARC20 balances
 ```
   /insight-api/erc20/:contractAddress/balances
 ```
