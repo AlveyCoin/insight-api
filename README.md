@@ -21,7 +21,7 @@
 * [Stake](#stake-statistic)
 * [Total Supply](#total-supply-statistic)
 
-A ALV blockchain REST and web socket API service for [Qtumcore Node](https://github.com/alveyproject/alveycore-node).
+A ALV blockchain REST and web socket API service for [Alveycore Node](https://github.com/alveyproject/alveycore-node).
 
 This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/alveyproject/alvey-explorer.
 
@@ -293,8 +293,8 @@ This would return:
     "limit": 20,
     "offset": 1,
     "addresses": [
-        "QbmrFnBhyMKUhrabXfaAWZTncSWbJA8FsG",
-        "QarHW2HjV8Z3njxiTuvUZU3hmqahKNZ49y"
+        "AbmrFnBhyMKUhrabXfaAWZTncSWbJA8FsG",
+        "AarHW2HjV8Z3njxiTuvUZU3hmqahKNZ49y"
     ],
     "from_block": 34101,
     "to_block": 34378,
@@ -303,11 +303,11 @@ This would return:
     "count": 2,
     "items": [
         {
-            "contract_address_base": "QNdW79juyJNJ89h99D9vfo5QhCZpmavJNX",
+            "contract_address_base": "ANdW79juyJNJ89h99D9vfo5QhCZpmavJNX",
             "block_height": 34377,
             "tx_hash": "e5c16ea5785fed909957100c3721a62f5f5dfe427af1c926ba11e64c3f905fab",
-            "from": "QNvEBPtXwezdJjkUUy2JF6pirGn1vtkaNt",
-            "to": "QarHW2HjV8Z3njxiTuvUZU3hmqahKNZ49y",
+            "from": "ANvEBPtXwezdJjkUUy2JF6pirGn1vtkaNt",
+            "to": "AarHW2HjV8Z3njxiTuvUZU3hmqahKNZ49y",
             "value": "100000000000",
             "block_date_time": "2017-10-27T12:28:48.000Z"
         }
