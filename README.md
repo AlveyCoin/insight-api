@@ -130,7 +130,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
 
 ## Add-on Services
 
-There add-on service available to extend the functionality of Qtumcore:
+There add-on service available to extend the functionality of Alveycore:
 
 - [ALV Explorer](https://github.com/alveyproject/alvey-explorer)
 
